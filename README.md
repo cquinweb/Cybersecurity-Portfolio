@@ -26,7 +26,7 @@ Durante el ciclo de encendido, se interrumpió el proceso de arranque automátic
 
 Utilizando el comando `ls`, se realizó un mapeo de las particiones físicas del disco duro para identificar el volumen donde reside el sistema operativo, detectando la estructura en la partición `(hd1,gpt2)`.
 
-*(Sube tu Foto 1 aquí: ![Evidencia 1](foto1.jpg))*
+<p align="center"><img src="1.jpeg" width="80%" alt="Consola de comandos"></p>
 
 #### Fase 2: Forzado de Configuración y Carga del Núcleo
 Debido a las restricciones del mapeo de teclado del hardware Apple bajo Linux, se procedió a evadir la consola de comandos inyectando la ruta directa del archivo de configuración principal de arranque mediante el comando:
@@ -37,7 +37,8 @@ configfile (hd1,gpt2)/boot/grub/grub.cfg
 
 Este comando forzó al hardware a ejecutar los archivos de configuración originales, reiniciando el entorno de manera segura y desplegando la inicialización del sistema operativo de forma exitosa.
 
-*(Sube tu Foto 2 aquí: ![Evidencia 2](foto2.jpg))*
+<p align="center"><img src="4.jpeg" width="80%" alt="Consola de comandos"></p>
+<p align="center"><img src="8.jpeg" width="80%" alt="Consola de comandos"></p>
 
 ---
 
